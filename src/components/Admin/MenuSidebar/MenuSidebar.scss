@@ -1,0 +1,85 @@
+@import "../../../scss/index.scss";
+
+
+html {
+  .admin-sidebar {
+    position: fixed;
+    left: 0;
+    top: 65px;
+    height: 100vh;
+    overflow: auto;
+    // margin-left: 10px;
+    background-color:  #084DB2  ;
+    .center {
+      text-align: left;
+      // justify-content: center;
+      // align-content: center;
+    }
+    .ant-menu-item{
+      background-color:  #084DB2  ;
+      border-radius: 20px;
+      margin-left: 5px !important;
+      margin-right: 5px  !important;
+      width: 97% !important;
+      
+      color: white;
+      &:hover{
+        background-color: #1890ff !important;
+
+      }
+
+      
+
+      span{
+        color: white;
+      }
+    }
+    .ant-menu-item-selected{
+      background-color: #CCE1FE  !important;
+      
+      span{
+        color: black !important;
+      }
+      
+    }
+    .ant-menu.ant-menu-dark{
+      background-color:  #084DB2  ;
+      
+    }
+  }
+  
+}
+
+/* Variables de color si el tema es dark */
+html[data-theme="dark"] {
+  .admin-sidebar {
+    position: fixed;
+    background-color: #001529 ;
+    left: 0;
+    top: 65px;
+    height: 100vh;
+    overflow: auto;
+    .center {
+      text-align: left;
+      // justify-content: center;
+      // align-content: center;
+    }
+    .ant-menu-item{
+      background-color: #001529 ;
+      color: black;
+      &:hover{
+        background-color: #1890ff !important;
+      }
+      span{
+        color: white;
+      }
+    }
+    .ant-menu.ant-menu-dark{
+      background-color: #001529 ;
+      
+    }
+
+    
+  }
+  
+}

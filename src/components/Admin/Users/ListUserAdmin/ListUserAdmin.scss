@@ -1,0 +1,88 @@
+
+html {
+  .list-users-admin {
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+     
+      .boton{
+       margin-right: 3px;
+       border-radius: 14px;
+      }
+      &-switch {
+          display: flex;
+          align-items: center;
+          margin-bottom: 50px;
+      
+          > button {
+            margin-right: 20px;
+          }
+        }
+    }
+   
+  
+    .users-active-admin {
+      background-color: #f0f2f5 ;
+      padding: 10px 20px;
+      border-radius: 20px;
+  
+      .ant-list-item-meta {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .pagination{
+      text-align: center;
+      margin-top: 10px;
+      justify-content: center;
+  }
+  }
+  
+}
+
+/* Variables de color si el tema es dark */
+html[data-theme="dark"] {
+  .list-users-admin {
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+     
+      .boton{
+       margin-right: 3px;
+       border-radius: 14px;
+      }
+      &-switch {
+          display: flex;
+          align-items: center;
+          margin-bottom: 50px;
+      
+          > button {
+            margin-right: 20px;
+          }
+        }
+    }
+   
+  
+    .users-active-admin {
+      background-color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+  
+      .ant-list-item-meta {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .pagination{
+      text-align: center;
+      margin-top: 10px;
+      justify-content: center;
+  }
+  }
+  
+}
+

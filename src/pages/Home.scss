@@ -1,0 +1,20 @@
+
+
+
+html {
+    .espacio {
+        background-color: #084DB2;
+        height: 110px;
+    }
+  }
+  
+  /* Variables de color si el tema es dark */
+  html[data-theme="dark"] {
+    .espacio {
+        background-color: #08547E;
+        height: 110px;
+    }
+  }
+
+
+

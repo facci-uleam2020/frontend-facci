@@ -1,0 +1,71 @@
+html {
+  .title {
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 60px;
+    color: #1559c9;
+  }
+
+  .subtitle {
+    font-family: "Montserrat, sans-serif";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 60px;
+    color: #147c2a;
+    font-style: normal;
+  }
+
+  .description {
+    font-family: "Roboto, sans-serif";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 24px;
+    // margin-top: 60px;
+    font-style: normal;
+    color: #000000;
+  }
+  .nam {
+    margin-bottom: 60px;
+  }
+}
+
+html[data-theme="dark"] {
+  .title {
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 60px;
+    color: wheat;
+  }
+
+  .subtitle {
+    font-family: "Montserrat, sans-serif";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 60px;
+    color: wheat;
+    font-style: normal;
+  }
+
+  .description {
+    font-family: "Roboto, sans-serif";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 24px;
+    // margin-top: 60px;
+    font-style: normal;
+    color: #99B2E0;
+  }
+  .nam {
+    margin-bottom: 60px;
+  }
+}

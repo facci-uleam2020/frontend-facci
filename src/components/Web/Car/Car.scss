@@ -1,0 +1,15 @@
+.list-carrito {
+	background-color: rgba(40, 227, 236, 0.1);
+	padding: 10px 20px;
+	border-radius: 20px;
+
+	.ant-list-item-meta {
+		display: flex;
+		align-items: center;
+	}
+}
+.pagination {
+	text-align: center;
+	margin-top: 10px;
+	justify-content: center;
+}

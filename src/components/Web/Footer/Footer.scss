@@ -1,0 +1,47 @@
+@import "../../../scss/index.scss";
+
+
+
+html {
+  .footer {
+    background-color: #f3f3f3;
+    border-top: 3px solid $primary-color;
+  
+    &__copy {
+      margin-top: 30px;
+  
+      .ant-col {
+        color: $primary-color-dark;
+  
+        &:last-of-type {
+          text-align: right;
+  
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}
+
+/* Variables de color si el tema es dark */
+html[data-theme="dark"] {
+ 
+  .footer {
+    background-color: $background-dark-web;
+    border-top: 3px solid $primary-color;
+  
+    &__copy {
+      margin-top: 30px;
+  
+      .ant-col {
+        color: $primary-color-dark;
+  
+        &:last-of-type {
+          text-align: right;
+  
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@import "../../../../scss/index.scss";
+
+
+html {
+  
+  .navigation-footer {
+    margin-left: 20px;
+    h3 {
+      color: $font-dark;
+      font-weight: bold;
+    }
+    ul {
+      padding: 0;
+      margin-top: 28px;
+  
+      li {
+        list-style: none !important;
+        padding: 5px 0;
+        float: left;
+        a {
+          color: $primary-color-dark;
+          &:hover {
+            color: $primary-color;
+          }
+  
+          svg {
+            //   padding-right: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+/* Variables de color si el tema es dark */
+html[data-theme="dark"] {
+  .navigation-footer {
+    margin-left: 20px;
+    h3 {
+      color: $font-light;
+      font-weight: bold;
+    }
+    ul {
+      padding: 0;
+      margin-top: 28px;
+  
+      li {
+        list-style: none !important;
+        padding: 5px 0;
+        float: left;
+        a {
+          color: $primary-color-dark;
+          &:hover {
+            color: $primary-color;
+          }
+  
+          svg {
+            //   padding-right: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  
+}

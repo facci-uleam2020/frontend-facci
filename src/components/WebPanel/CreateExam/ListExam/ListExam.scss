@@ -1,0 +1,17 @@
+.list-exam {
+    
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      float: right;
+      margin-top: 5%;
+     
+      .boton{
+       margin-right: 3px;
+       border-radius: 14px;
+       
+      }
+
+    }}

@@ -1,0 +1,23 @@
+.colum {
+	margin-top: 3%;
+
+	.register-form {
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #d6d7d7;
+		padding: 24px;
+		border-radius: 10px;
+		margin-bottom: 10%;
+		input {
+			color: #000;
+		}
+	}
+	.title {
+		color: #fff;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 28px;
+		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}

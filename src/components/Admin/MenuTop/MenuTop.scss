@@ -1,0 +1,183 @@
+@import "../../../scss/index.scss";
+
+html {
+  .menu-top {
+    display: flex;
+    background-color: #084DB2    ;
+    // border-top-color: #50F7FC ;
+  
+    button {
+      color: $font-light;
+  
+      &:hover {
+        color: $primary-color;
+      }
+      &:focus,
+      &:active {
+        color: $font-light;
+      }
+    }
+  
+    &__left {
+      &-logo {
+        width: 200px;
+        padding: 0 10px;
+      }
+    }
+  
+    &__right {
+      position: absolute;
+      display: flex;
+      right: 0;
+  
+      .ava {
+        margin-top: 5% !important;
+      }
+      .menu {
+        border-right: 0 !important;
+        background-color: #084DB2    !important;
+        border-bottom: 0 !important;
+        margin-right: 10px;
+        .nombre {
+          color: #fff;
+          font-size: 0em + 18px / $defaultFontSize;
+          background-color: #084DB2   ;
+        }
+      }
+  
+      .logout {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+/* Variables de color si el tema es dark */
+html[data-theme="dark"] {
+  
+  .menu-top {
+    display: flex;
+    background-color: #08547e;
+  
+    button {
+      color: $font-light;
+  
+      &:hover {
+        color: $primary-color;
+      }
+      &:focus,
+      &:active {
+        color: $font-light;
+      }
+    }
+  
+    &__left {
+      &-logo {
+        width: 200px;
+        padding: 0 10px;
+      }
+    }
+  
+    &__right {
+      position: absolute;
+      display: flex;
+      right: 0;
+  
+      .ava {
+        margin-top: 5% !important;
+      }
+      .menu {
+        border-right: 0 !important;
+        background-color: #08547e !important;
+        border-bottom: 0 !important;
+        margin-right: 10px;
+        .nombre {
+          color: #fff;
+          font-size: 0em + 18px / $defaultFontSize;
+          background-color: #08547e;
+        }
+      }
+  
+      .logout {
+        margin-top: 15px;
+        
+          &:hover{
+            background-color: #08547e;
+          
+        }
+      }
+    }
+  }
+}
+
+#reloj {
+  width: 150px;
+  height: 0px;
+  padding: 5px 10px;
+  font: bold 1.1em dotum, "lucida sans", arial;
+  text-align: center;
+  margin: 1em 3em 1em 1em;
+  margin-top: 17px;
+  color: white;
+  position: fixed;
+  margin-left: 87%;
+}
+
+@media screen and (max-width: 1050px) {
+  #reloj {
+    width: 150px;
+    height: 0px;
+    padding: 5px 10px;
+    font: bold 1.1em dotum, "lucida sans", arial;
+    text-align: center;
+    margin: 1em 3em 1em 1em;
+    margin-top: 17px;
+    color: white;
+    position: fixed;
+    margin-left: 85%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #reloj {
+    width: 150px;
+    height: 0px;
+    padding: 5px 10px;
+    font: bold 1.1em dotum, "lucida sans", arial;
+    text-align: center;
+    margin: 1em 3em 1em 1em;
+    margin-top: 17px;
+    color: white;
+    position: fixed;
+    margin-left: 83%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #reloj {
+    width: 150px;
+    height: 0px;
+    padding: 5px 10px;
+    font: bold 1.1em dotum, "lucida sans", arial;
+    text-align: center;
+    margin: 1em 3em 1em 1em;
+    margin-top: 17px;
+    color: white;
+    position: fixed;
+    margin-left: 79%;
+  }
+  @media screen and (max-width: 700px) {
+    #reloj {
+      width: 150px;
+      height: 0px;
+      padding: 5px 10px;
+      font: bold 1.1em dotum, "lucida sans", arial;
+      text-align: center;
+      margin: 1em 3em 1em 1em;
+      margin-top: 17px;
+      color: white;
+      position: fixed;
+      margin-left: 68%;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+@import "../../../scss/index.scss";
+
+.menu-top {
+  display: flex;
+
+  button {
+    color: $font-light;
+
+    &:hover {
+      color: $primary-color !important;
+    }
+    &:focus,
+    &:active {
+      color: $font-light;
+    }
+  }
+
+  &__left {
+    &-logo {
+      width: 200px;
+      padding: 0 10px;
+    }
+  }
+
+  &__right {
+    .power{
+			&:hover{
+				background-color: #08547e;
+			}
+		}
+    position: absolute;
+    right: 0;
+  }
+}
+#reloj {
+  width: 150px;
+  height: 0px;
+  padding: 5px 10px;
+  font: bold 1.1em dotum, "lucida sans", arial;
+  text-align: center;
+  margin: 1em 3em 1em 1em;
+  margin-top: 17px;
+  color: white;
+  position: fixed;
+  margin-left: 87%;
+}
+
+@media screen and (max-width: 1050px) {
+  #reloj {
+    width: 150px;
+    height: 0px;
+    padding: 5px 10px;
+    font: bold 1.1em dotum, "lucida sans", arial;
+    text-align: center;
+    margin: 1em 3em 1em 1em;
+    margin-top: 17px;
+    color: white;
+    position: fixed;
+    margin-left: 85%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #reloj {
+    width: 150px;
+    height: 0px;
+    padding: 5px 10px;
+    font: bold 1.1em dotum, "lucida sans", arial;
+    text-align: center;
+    margin: 1em 3em 1em 1em;
+    margin-top: 17px;
+    color: white;
+    position: fixed;
+    margin-left: 83%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #reloj {
+    width: 150px;
+    height: 0px;
+    padding: 5px 10px;
+    font: bold 1.1em dotum, "lucida sans", arial;
+    text-align: center;
+    margin: 1em 3em 1em 1em;
+    margin-top: 17px;
+    color: white;
+    position: fixed;
+    margin-left: 79%;
+  }
+  @media screen and (max-width: 700px) {
+    #reloj {
+      width: 150px;
+      height: 0px;
+      padding: 5px 10px;
+      font: bold 1.1em dotum, "lucida sans", arial;
+      text-align: center;
+      margin: 1em 3em 1em 1em;
+      margin-top: 17px;
+      color: white;
+      position: fixed;
+      margin-left: 68%;
+    }
+  }
+}
